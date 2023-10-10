@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6696eb65477971101d215d58c26d4362" label="Title" max_length="40" name="x_106688_empmgmt_title" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true" label="Package" max_length="20" name="package" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Title code" max_length="40" name="title_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title name" max_length="40" name="title_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="58a727e5477971101d215d58c26d430c" label="Employee" max_length="40" name="x_106688_empmgmt_employee" type="collection">
+        <element attributes="encode_utf8=false" label="Dept code" max_length="32" name="dept_code" reference="x_106688_empmgmt_dept" type="reference"/>
+        <element attributes="encode_utf8=false" label="Emp Code" max_length="32" name="emp_code" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Title" max_length="32" name="title" reference="x_106688_empmgmt_title" type="reference"/>
+        <index name="index">
+            <element name="dept_code"/>
+        </index>
+        <index name="index2">
+            <element name="emp_code"/>
+        </index>
+        <index name="index3">
+            <element name="title"/>
+        </index>
+    </element>
+</database>
